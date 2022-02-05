@@ -1,0 +1,22 @@
+.inputs {
+  display: none;
+}
+
+.outputs .qr-codes {
+  display: grid;
+  grid-template-columns: repeat(8, 25.4mm);
+}
+
+/* input {
+    display: none;
+  }
+  div.qrs {
+    width: 209.758mm;
+    margin: 0;
+  }
+  div.qrs div canvas {
+    width: 25.4mm;
+  }
+  script:first-child {
+    display: none;
+  } */

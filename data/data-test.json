@@ -1,0 +1,14 @@
+[
+  { "Id": "1", "Name": "Galaxy A50" },
+  { "Id": 2, "Name": "Galaxy A52" },
+  { "Id": 3, "Name": "Galaxy S21" },
+  { "Id": 4, "Name": "Galaxy S9" },
+  { "Id": 5, "Name": "Galaxy S7" },
+  { "Id": 6, "Name": "Galaxy S21" },
+  { "Id": 7, "Name": "Galaxy S9" },
+  { "Id": 8, "Name": "Galaxy S7" },
+  { "Id": 9, "Name": "Galaxy S21" },
+  { "Id": 10, "Name": "Galaxy S9" },
+  { "Id": 11, "Name": "Galaxy S7" },
+  { "Id": 12, "Name": "Galaxy S7" }
+]

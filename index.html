@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/web api/read-excel-file.min.js"></script>
+    <script src="./js/web api/qrcode.min.js"></script>
+    <link rel="stylesheet" href="./style/main.css" media="all" />
+    <link rel="stylesheet" href="./style/print.css" media="print" />
+    <link rel="stylesheet" href="./fonts/style.css">
+    <title></title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <script src="read-excel-file.min.js"></script>
-   <script src="qrcode.min.js"></script>
-   <link rel="stylesheet" href="style.css" type="text/css" media="all" />
-   
-   <title></title>
-  
-</head>
+  <body>
+    <main>
+      <div class="inputs">
+        <div class="contener-input-file">
+          <div class="text-box">
+            <h1>Upload your file</h3>
+            <p>upload Excel file <span>*xlsx</span></p>
+          </div>
+          <div class="box-file">
+            <div class="input-fake">
+              <i class="icon-file-text2"></i>
+              <p>Drop your file here or Click to borwse</p>
+            </div>
+            <input type="file" id="input-file" />
+          </div>
+          <div class="warning-box"></div>
+        </div>
+      </div>
+      <div class="outputs">
+        <div class="qr-codes"></div>
+      </div>
+    </main>
 
-<body>
-<input type="file" id="input" />
-<div class="qrs"></div>
-
-<script src="main.js"></script>
-</body>
-
+    <script src="./js/main.js"></script>
+  </body>
 </html>
